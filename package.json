@@ -1,0 +1,17 @@
+{
+  "name": "family-fps",
+  "version": "1.0.0",
+  "description": "Mobile browser multiplayer FPS for family (Urban Terror–inspired, original assets)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
